@@ -1,0 +1,11 @@
+.book-details{
+    display: flex;
+    gap:50px;
+  
+}
+.book-align{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+   text-align: center;
+}

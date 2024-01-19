@@ -1,0 +1,12 @@
+h1{
+  color: red;
+  text-align: center;
+}
+.image-align{
+  display: flex;
+  gap: 20px;
+}
+img{
+  width: 70%;
+  height: auto;
+}
