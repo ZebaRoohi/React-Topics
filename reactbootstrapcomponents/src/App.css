@@ -1,0 +1,16 @@
+/* .accordian-container{
+  background-color: black;
+  color: white;
+  height: 100vh;
+} */
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

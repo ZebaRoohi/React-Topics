@@ -17,11 +17,10 @@ const Axios = () => {
 },[])
 return (
     <div>
-        {data?
         <div>(
             <h1>Example of Axios Method</h1>
             <ul>
-            {data.map((character)=>(
+            {data?.map((character)=>(
                 <li key={character.id}>
                 <strong>{character.name}</strong>-{character.status}
                 <br />
@@ -36,7 +35,7 @@ return (
                 <p>Loading.....</p>
                 </div>
            )    
-    }
+    
     </div>
 
   )}
